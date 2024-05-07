@@ -30,4 +30,20 @@ func main() {
 		}
 	}
 
+	fmt.Println("============EXEMPLOS DE DE SWITCH CASE================")
+	for i := 1; i < 10; i++ {
+		switch i {
+		case 0:
+			fmt.Println("Zero")
+
+		case 1:
+			fmt.Println("Um")
+
+		case 2:
+			fmt.Println("Dois")
+
+		}
+
+	}
+
 }
