@@ -5,7 +5,7 @@ import (
 )
 
 func TestSoma(t *testing.T) {
-	teste := testes.soma(3, 2, 1)
+	teste := teste.soma.soma(3, 2, 1)
 	resultado := 6
 
 	if teste != resultado {
