@@ -1,11 +1,12 @@
-package main
+package tests
 
 import (
+	"github.com/Gileno29/golang-bootcamp/teste/soma"
 	"testing"
 )
 
 func TestSoma(t *testing.T) {
-	teste := teste.soma.soma(3, 2, 1)
+	teste := soma.soma(3, 2, 1)
 	resultado := 6
 
 	if teste != resultado {
