@@ -1,7 +1,7 @@
-package tests
+package main
 
 import (
-	"github.com/Gileno29/golang-bootcamp/teste/soma"
+	_ "github.com/Gileno29/golang-bootcamp/teste/soma"
 	"testing"
 )
 
