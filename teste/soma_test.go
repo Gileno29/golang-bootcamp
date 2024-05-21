@@ -1,11 +1,11 @@
-package tests
+package main
 
 import (
 	"testing"
 )
 
 func TestSoma(t *testing.T) {
-	teste := soma.soma(3, 2, 1)
+	teste := soma(3, 2, 1)
 	resultado := 6
 
 	if teste != resultado {
